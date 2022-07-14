@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  transition: all .1s ease-in;
+}
+
+@font-face {
+  font-family: "Lucida Sans";
+  src: url(../font/lucida-sans/Lucida\ Sans\ Regular.ttf);
+  font-weight: 400;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #3399CC;
+  border: solid 25px #2B81AC;
+  font-family: "Lucida Sans";
+  font-weight: 400;
+  color: #fff;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 21px;
+}
+
+h1 i {
+  font-size: 23px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  min-height: 104px;
+}
+
+.forecast-section ul {
+  padding: 2px;
+  background: #fff;
+}
+
+.forecast-section ul li {
+  display: inline-block;
+  border: solid 2px #fff;
+  opacity: 70%;
+  font-size: 22px;
+}
+
+.forecast-section ul li:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.forecast-section ul li i {
+  font-size: 33px;
+}
+
+.col-1 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 100%;
+}
+
+.forecast-city-wrapper {
+  display: flex;
+  min-height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.forecast-city-wrapper div {
+  margin-top: 18px;
+  display: flex;
+  min-width: 108px;
+  align-items: center;
+  justify-content: center;
+  opacity: 70%;
+}
+
+
+.forecast-city-wrapper div i {
+  margin-left: 15px;
+}
+
+.bg-blue {
+  background-color: #3399CC;
+}
+
+.bg-turquoise {
+  background-color: #33CCCC;
+}
+
+.bg-purple {
+  background-color: #996699;
+}
+
+.bg-dark-red {
+  background-color: #C24747;
+}
+
+.bg-light-orange {
+  background-color: #E2674A;
+}
+
+.bg-light-yellow {
+  background-color: #FFCC66;
+}
+
+.bg-light-green {
+  background-color: #99CC99;
+}
+
+.bg-dull-turquoise {
+  background-color: #669999;
+}
+
+.bg-pink {
+  background-color: #CC6699;
+}
+
+.bg-green {
+  background-color: #339966;
+}
+
+.bg-dull-purple {
+  background-color: #666699;
+}
+
+.message-section {
+  font-size: 16px;
+}
+
+.message-section p {
+  margin: 35px 0 94px 0;
+}
