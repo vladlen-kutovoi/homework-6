@@ -38,6 +38,7 @@ header .container {
   min-height: 104px;
 }
 
+/*=============FORECAST SECTION==============*/
 .forecast-section ul {
   padding: 2px;
   background: #fff;
@@ -140,6 +141,7 @@ header .container {
   background-color: #666699;
 }
 
+/*==================MESSAGE SECTION==============*/
 .message-section {
   font-size: 16px;
 }
