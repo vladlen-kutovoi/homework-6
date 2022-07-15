@@ -16,6 +16,7 @@ body {
   font-family: "Lucida Sans";
   font-weight: 400;
   color: #fff;
+  font-size: 0;
 }
 
 .container {
@@ -141,5 +142,5 @@ header .container {
 }
 
 .message-section p {
-  margin: 35px 0 94px 0;
+  margin: 35px 0 94px;
 }
