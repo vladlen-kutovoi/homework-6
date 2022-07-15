@@ -46,13 +46,16 @@ header .container {
 .forecast-section ul li {
   display: inline-block;
   border: solid 2px #fff;
-  opacity: 70%;
   font-size: 22px;
+}
+
+.forecast-section ul:hover li {
+  opacity: 70%;
+  cursor: url(../img/cursor.svg), auto;
 }
 
 .forecast-section ul li:hover {
   opacity: 100%;
-  cursor: pointer;
 }
 
 .forecast-section ul li i {
